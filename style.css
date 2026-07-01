@@ -556,12 +556,13 @@ margin-bottom:10px;
 }
 
 .profile-photo{
-    width:280px;
-    height:280px;
+    width:360px;
+    height:360px;
     object-fit:cover;
     object-position:center top;
     border-radius:50%;
     border:6px solid #D4AF37;
-    box-shadow:0 15px 40px rgba(0,0,0,.3);
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
     display:block;
+    margin:0 auto 30px;
 }
