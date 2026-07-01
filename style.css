@@ -82,23 +82,14 @@ color:#D4AF37;
 /* ===== HERO ===== */
 
 .hero{
-
-height:90vh;
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-text-align:center;
-
-padding:40px;
-
-background:linear-gradient(135deg,#0B1F3A,#123D73);
-
-color:white;
-
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:110px 20px 80px;
+    background:linear-gradient(135deg,#0B1F3A,#123D73);
+    color:white;
 }
 
 .hero h1{
