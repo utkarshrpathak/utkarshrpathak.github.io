@@ -537,4 +537,24 @@ color:#0B1F3A;
 
 margin-bottom:10px;
 
+}.hero{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+    flex-wrap:wrap;
+    padding:80px 20px;
+}
+
+.hero-image img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid #D4AF37;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+}
+
+.hero-content{
+    max-width:650px;
 }
