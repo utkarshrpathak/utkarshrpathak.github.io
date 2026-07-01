@@ -558,3 +558,21 @@ margin-bottom:10px;
 .hero-content{
     max-width:650px;
 }
+.hero-content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.profile-photo{
+    width:280px;
+    height:280px;
+    object-fit:cover;
+    object-position:center top;
+    border-radius:50%;
+    border:6px solid #D4AF37;
+    box-shadow:0 15px 40px rgba(0,0,0,.3);
+    display:block;
+}
